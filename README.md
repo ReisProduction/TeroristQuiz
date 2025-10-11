@@ -5,7 +5,7 @@ TeroristQuiz is an interactive web-based game that challenges users to identify 
 
 ## Live Demo
 
-You can play the quiz live here: **[TeroristQuiz](https://bayramreisbirligi.github.io/teroristquiz/)**
+You can play the quiz live here: **[TeroristQuiz](https://bayramreisbirligi.github.io/TeroristQuiz/)**
 
 ## Features
 
@@ -31,12 +31,12 @@ To run this project on your local machine, simply follow these steps:
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/bayramreisbirligi/teroristquiz.git
+    git clone https://github.com/bayramreisbirligi/TeroristQuiz.git
     ```
 
 2.  **Navigate to the project directory:**
     ```sh
-    cd teroristquiz
+    cd TeroristQuiz
     ```
 
 3.  **Open the application:**
