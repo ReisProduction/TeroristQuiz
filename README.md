@@ -1,54 +1,187 @@
-# TeroristQuiz
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/BayramReisbirligi/TeroristQuiz)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
+</p>
+<p align="center"><h1 align="center">SOON</h1></p>
+<p align="center">
+	<em>Counting Every Second to Your Next Big Moment!</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/ReisProduction/Soon?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/ReisProduction/Soon?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/ReisProduction/Soon?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/ReisProduction/Soon?style=default&color=0080ff" alt="repo-language-count">
+</p>
+<p align="center"><!-- default option, no dependency badges. -->
+</p>
+<p align="center">
+	<!-- default option, no dependency badges. -->
+</p>
+<br>
 
-TeroristQuiz is an interactive web-based game that challenges users to identify which organization an individual belongs to based on their photograph. The quiz includes an option to add AI-generated civilian photos to increase the difficulty.
+##  Table of Contents
 
-## Live Demo
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Project Structure](#-project-structure)
+  - [ Project Index](#-project-index)
+- [ Getting Started](#-getting-started)
+  - [ Prerequisites](#-prerequisites)
+  - [ Installation](#-installation)
+  - [ Usage](#-usage)
+  - [ Testing](#-testing)
+- [ Project Roadmap](#-project-roadmap)
+- [ Contributing](#-contributing)
+- [ License](#-license)
+- [ Acknowledgments](#-acknowledgments)
 
-You can play the quiz live here: **[TeroristQuiz](https://bayramreisbirligi.github.io/TeroristQuiz/)**
+---
 
-## Features
+##  Overview
 
-- **Interactive Quiz Interface**: Users are presented with a person's image and four potential organizations to choose from.
-- **Score Tracking**: The application keeps track of correct and incorrect answers. Scores are saved in the browser's local storage, so your progress is maintained across sessions.
-- **Include Civilians**: A toggle switch allows you to add AI-generated "civilian" photos into the quiz, making it more challenging to distinguish actual targets.
-- **Score Reset**: Easily reset your score to start over.
-- **Performance Feedback**: After every 20 questions, the game provides a summary of your success rate with a themed message.
-- **Responsive Design**: The user interface is designed with a sleek, dark theme and is fully responsive for both desktop and mobile devices.
+The Soon project elegantly tackles the anticipation of upcoming events with a stylish, interactive countdown timer. Designed for websites under construction or preparing for special launches, Soon keeps visitors engaged with dynamic updates and sleek animations. Ideal for event organizers, marketers, and developers, it enhances user experience while maintaining a connection through integrated social media links.
 
-## How It Works
+---
 
-The application pulls data from two main sources:
+##  Features
 
-- **Wanted Individuals**: The data for wanted individuals is sourced from the publicly available list provided by the [T.C. İçişleri Bakanlığı Terör Arananlar](https://www.terorarananlar.pol.tr/tarananlar/).
-- **Civilian Photos**: To provide a "Sivil" (Civilian) option, the quiz dynamically fetches unique, AI-generated human faces from [https://thispersondoesnotexist.com](https://thispersondoesnotexist.com).
+|      | Feature         | Summary       |
+| :--- | :---:           | :---          |
+| ⚙️  | **Architecture**  | <ul><li>Utilizes a basic three-tier architecture with separate files for presentation (`index.html`), styling (`style.css`), and logic (`script.js`).</li><li>Designed for simplicity and ease of understanding, suitable for small projects or prototypes.</li><li>Focuses on front-end technologies without backend integration.</li></ul> |
+| 🔩 | **Code Quality**  | <ul><li>Code is modularized into CSS, JavaScript, and HTML files, promoting separation of concerns.</li><li>JavaScript code in `script.js` is structured to handle time-sensitive features dynamically.</li><li>Uses clear naming conventions and structured formatting for maintainability.</li></ul> |
+| 📄 | **Documentation** | <ul><li>Limited documentation with basic descriptions embedded within code files.</li><li>No extensive external documentation or API guides provided.</li><li>Inline comments in `style.css` and `script.js` enhance understandability.</li></ul> |
+| 🔌 | **Integrations**  | <ul><li>Integrates external fonts and icons to enhance UI aesthetics.</li><li>No complex third-party service integrations.</li><li>Designed to be standalone with potential for future expansions.</li></ul> |
+| 🧩 | **Modularity**    | <ul><li>Codebase is split into three main files, each handling a specific aspect of the web application.</li><li>Modular design allows for easy updates and maintenance.</li><li>Potential to expand each module independently as project scales.</li></ul> |
+| 🧪 | **Testing**       | <ul><li>No formal testing framework or tests mentioned.</li><li>Relies on manual testing for functionality verification.</li><li>Opportunity to implement unit and integration tests for better reliability.</li></ul> |
+| ⚡️  | **Performance**   | <ul><li>Lightweight dependencies (`html`, `css`, `javascript`) ensure fast load times.</li><li>Optimized CSS for responsive design contributes to better performance across devices.</li><li>JavaScript handles dynamic content efficiently without noticeable lag.</li></ul> |
+| 🛡️ | **Security**      | <ul><li>No specific security measures detailed.</li><li>Basic web application without sensitive data handling or transactions.</li><li>Opportunity to enhance security as project requirements evolve.</li></ul> |
+| 📦 | **Dependencies**  | <ul><li>Depends solely on basic web technologies: `<html>`, `<css>`, `<javascript>`.</li><li>No complex dependency management required.</li><li>Low risk of dependency-related issues due to the simplicity of the stack.</li></ul> |
 
-The JavaScript logic fetches this data, randomizes the questions, presents the quiz, checks answers, and updates the score.
+---
 
-## Getting Started
+##  Project Structure
 
-To run this project on your local machine, simply follow these steps:
+```sh
+└── Soon/
+    ├── LICENSE
+    ├── README.md
+    ├── favicon.png
+    ├── index.html
+    ├── script.js
+    └── style.css
+```
 
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/bayramreisbirligi/TeroristQuiz.git
-    ```
 
-2.  **Navigate to the project directory:**
-    ```sh
-    cd TeroristQuiz
-    ```
+###  Project Index
+<details open>
+	<summary><b><code>SOON/</code></b></summary>
+	<details> <!-- __root__ Submodule -->
+		<summary><b>__root__</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/ReisProduction/Soon/blob/master/style.css'>style.css</a></b></td>
+				<td>- Defines the visual presentation and animations for a web interface, setting a vibrant theme with primary and secondary purple hues and a dark gradient background<br>- It styles text, containers, and interactive elements like countdown timers and social media icons, enhancing user engagement through animated effects and responsive design adjustments for smaller screens.</td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ReisProduction/Soon/blob/master/script.js'>script.js</a></b></td>
+				<td>- Script.js initializes a countdown timer displayed on a webpage, updating every second to show the time remaining until a specified future date<br>- It dynamically adjusts the displayed days, hours, minutes, and seconds, and resets the countdown annually if the target date passes, ensuring continuous operation.</td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ReisProduction/Soon/blob/master/index.html'>index.html</a></b></td>
+				<td>- Serves as the landing page for a website currently under construction, presenting a countdown timer and social media links<br>- It engages visitors with a "coming soon" message, utilizing external fonts and icons for aesthetic appeal, and prepares users for future content while maintaining connectivity through social platforms.</td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+</details>
 
-3.  **Open the application:**
-    Open the `index.html` file in your preferred web browser. No special server or build process is required.
+---
+##  Getting Started
 
-## Technologies Used
+###  Prerequisites
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- [SweetAlert2](https://sweetalert2.github.io/): For clean and responsive pop-up messages.
+Before getting started with Soon, ensure your runtime environment meets the following requirements:
 
-## License
+- **Programming Languages:** HTML, CSS and JS
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+###  Installation
+
+Install Soon using one of the following methods:
+
+**Build from source:**
+
+1. Clone the Soon repository:
+```sh
+❯ git clone https://github.com/ReisProduction/Soon
+```
+
+2. Navigate to the project directory:
+```sh
+❯ cd Soon
+```
+
+3. Install the project dependencies:
+
+echo 'INSERT-INSTALL-COMMAND-HERE'
+
+
+
+###  Usage
+Run Soon using the following command:
+echo 'INSERT-RUN-COMMAND-HERE'
+
+###  Testing
+Run the test suite using the following command:
+echo 'INSERT-TEST-COMMAND-HERE'
+
+---
+
+##  Contributing
+
+- **💬 [Join the Discussions](https://github.com/ReisProduction/Soon/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/ReisProduction/Soon/issues)**: Submit bugs found or log feature requests for the `Soon` project.
+- **💡 [Submit Pull Requests](https://github.com/ReisProduction/Soon/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone https://github.com/ReisProduction/Soon
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to github**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/ReisProduction/Soon/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=ReisProduction/Soon">
+   </a>
+</p>
+</details>
+
+---
+
+##  License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
