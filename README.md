@@ -124,6 +124,6 @@ Before getting started with Soon, ensure your runtime environment meets the foll
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [MIT](https://choosealicense.com/licenses/MIT) License. For more details, refer to the [LICENSE](https://github.com/ReisProduction/TeroristQuiz/blob/main/README.md) file.
 
 ---
